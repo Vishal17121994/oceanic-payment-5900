@@ -5,29 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+      
+#topimg{
+  height: 350px;
+  width: 25%;
+  margin-left: 6%;
+  margin-top: -70px;
+}
+
+.bottom{
+  margin-left: 12%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -40px;
+}
+#bottomimg{
+  border-radius: 20%;
+  margin-left: 55%;
+}
+
+.buttons{height:50px;
+  width: 32%;
+  border: 0px solid grey;
+  display: flex;
+  margin-left: 12%;
+  margin-top: 380px;
+  justify-content: space-between;
+  
+}
+.button1{
+  font-size: 50px;
+  background-color: green;
+  width: 42%;
+  font-size: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .button2{
+  font-size: 50px;
+  /* background-color: green; */
+  width: 42%;
+  font-size: 20px;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+
+
+#bottomheading{
+  height: 700px;
+  width: 90%;
+  border: 2px solid grey(188, 178, 178);
+  position: absolute;
+  top:30%;
+  display: flex;
+}
+
+
+
+#formformat{
+  height: 300px;
+  width: 40%;
+  border: 2px solid red;
+}
+
+.borderblack{
+  border: 0px solid white;
+}
+.formatboarderline{
+  height: 80px;
+  width: 100%;
+  border: 1px solid grey;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.bigbox{
+  height: 600px;
+  width: 32%;
+  border: 0px solid grey;
+  position: absolute;
+  top: 45%;
+  left: 12%;
+}
+
+
+    </style>
 </head>
 <body>
-  <img src="C:\Users\DELL\OneDrive\Desktop\Payish Logo.jpg" alt="">  
-  <h1>Welcome to register</h1>
- 
- <div class="mainbody">
-<div class="allbody">
-<div class="everyone">
-  <label firstname></label> 
-  <input type="text" name="firstname" autocomplete="off">
-  <span class="validmsg"></span>
+  <img id="topimg" src="C:\Users\DELL\OneDrive\Desktop\Oceanic Project\oceanic-payment-5900\Payish Logo.jpg" alt="">  
+  <h1 class="bottom">Welcome to register</h1>
   
+ 
 
-</div>
-</div>
 
-first name  <input type="text">
- 
- 
- 
- 
- 
- 
+  <img id="bottomimg" src="https://accounts.oceanpayment.com/merchant-img/login_img.png" alt="">
+<div class="bigbox"> 
+  <div class="formatboarderline">
+    <h2>First Name<br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+  <div class="formatboarderline">
+    <h2>Last Name<br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Email<br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Do Business As/Brand Name<br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Country/Region of Company Registration <br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Country/Region of Company Operation<br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Phone Number<br>
+      <input class="borderblack"  type="number"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Invitation code<br>
+      <input class="borderblack"  type="text"></h2>
+  </div>
+
+  <div class="formatboarderline">
+    <h2>Verification code<br>
+      <input class="borderblack"  type="text"></h2>
+  </div></div>
+
+  <div class="buttons">
+    <button class="button1">Submit</button>
+    <button class="button2">Return</button>
   </div>
 
 
